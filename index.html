@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!-- tipo de documento -->
+<html lang="pt-br"> <!-- elemento raiz que possue head e body + idioma -->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8"> <!-- aceita caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- tela adapitativa -->
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <img src="./assets/logo.png" alt="Logo">
+    </header>
+    <main> <!-- conteúdo principal -->
+        <section>
+            <div>
+            <h2>Assistente de Meta</h2>
+            <p>Pergunte sobre estratégias, builds e dicas para seus jogos!</p>
+
+            <form>
+                <input type="password" placeholder="Informe a API KEY do Gemini">
+                <select>"
+                    <option value="">Selecione um jogo</option>
+                    <option value="valorant">Valorant</option>
+                    <option value="lol">League of Legends</option>
+                    <option value="csgo">Counter-Strike: Global Offensive</option>
+                </select>
+                <input type="text" placeholder="Ex: Melhor build para ADC ...">
+                <button>
+                    Perguntar
+                </button>
+            </form>
+            <div id="aiResponse">
+                <div class="response-content"></div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+
+<!--
+Anotações extras:
+
+1. HTML:
+
+-HypertText
+Textos puros, livros, revistas, jornais;
+Links: acessar outros documentos;
+Imagens, vídeos, áudios;
+-Markup
+Marcação
+Tags: Link
+Atributos:
+Globais: id, class, ...
+-Language
+Linguagem
+Sintaxe: maneira de escrever
+---
+
+2. HTTP:
+
+-HyperText
+-Transfer
+Transferência
+-Protocol
+Protocolo
+Conjunto de regras
+---
+
+3. URL:
+
+-Uniform
+Uniforme
+-Resource
+Recurso
+-Locator
+Localizador Encontrar um recurso (html, css, js, pdf, jpg, mp4, mpr, ...) Endereço
+---
+
+4. IP
+
+-Internet
+Rede mundial de computadores
+-Protocol
+Conjunto de regras Endereço do computador rocketseat.com.br (domínio) 123.32.1.23 (ip)
+---
+
+5. DNS
+
+-Domain
+Domínio
+-Name
+Nome
+-Server
+Servidor
+---
+
+6. CSS
+
+-Cascading
+Cascata
+Regras das escritas
+Hierarquia
+Especificidade
+-Style
+Estilo
+-Sheet
+Folha
+De um arquivo que terá na sua sintaxe, declarações, propriedades e valores. A partir disso, o HTML é impactado visualmente.
+-->
