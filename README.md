@@ -1,7 +1,7 @@
 # 🕹️ Assistente de IA para Gamers - NLW eSports (Missão Iniciante Full-Stack)
 
 Esse projeto é o clássico NLW eSports da Rocketseat, mas com um toque especial: construímos um **Assistente de IA usando a API do Gemini** pra ser o cérebro do nosso projeto.  
-Um app full-stack, com design moderno, animações, e o mais importante: que te ajuda em tempo real nos jogos, dando dicas de estratégia, callouts e sugestões pra melhorar a gameplay.
+Um app full-stack, com design moderno, animações, e o mais importante: que te ajuda em tempo real nos jogos, dando dicas de estratégia, callouts, dicas, informações e sugestões pra melhorar a gameplay.
 
 ---
 
@@ -26,7 +26,10 @@ Um app full-stack, com design moderno, animações, e o mais importante: que te 
 
 ## 📸 Screenshots
 
-> ⚠️ Coloca aqui uns prints do app rodando, mostrando o assistente em ação, por exemplo a tela que exibe a resposta da IA pro build do Shaco.
+<p align="center">
+  <img src="assets/printNLW.png" width="400px">
+</p>
+
 
 ---
 

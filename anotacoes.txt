@@ -24,7 +24,9 @@ Transferência
 -Protocol
 Protocolo
 Conjunto de regras
----
+-Methods HTTP (verbos): Get, Post, Patch/Put, Delete
+-Headers (cabeçalhos): Intruções/Informações extras para cada chamada
+--- 
 
 3. URL:
 
@@ -101,3 +103,39 @@ Tipos de dados
 -Document
 -Object
 -Model
+---
+
+9. API
+
+-Application
+-Programming
+-Interface
+JSON: JavaScript Object Notation
+---
+
+10. CDN
+
+-Content
+-Delivery
+-Network
+---
+
+11. LLM
+
+-Large
+-Language
+-Model
+Gemini, OpenAI (chatGPT), Anthropic (Claude) ...
+---
+
+12. Agentes AI
+
+Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
+Melhor contexto
+---
+
+13. Engenharia de prompt
+
+One shot: uma única pergunta sem muito contexto
+Few shot: é apresentado exemplos do que se espera
+Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.

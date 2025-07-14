@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('./assets/bg.jpg');
 
@@ -21,9 +27,6 @@ body *,
 /* O asterisco define o body de forma mais forte */
   font-family: "Inter";
   line-height: 160%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* A caixa fica da altura definida */
 }
 
 header {
@@ -112,9 +115,48 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
-button:hover {
+/* Aplica o hover apenas se o botão NÃO estiver desabilitado */
+button:hover:not(:disabled) {
   cursor: pointer;
   /* transform: translateY(-2px); = O texto sobe ao passar o cursor*/
   transform: scale(1.02);
-  box-shadow: 0 5px 1rem rgba(149, 114, 252);
+  box-shadow: 0 5px 1rem rgba(149, 114, 252, 0.4);
+}
+
+button:disabled {
+  transition: initial;
+  transform: initial;
+  box-shadow: initial;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#aiResponse {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  border-left: 4px solid #9572FC;
+}
+
+#aiResponse ul {
+  padding-left: 1.5rem;
+  opacity: 0.8;
+}
+
+#aiResponse p {
+  color: antiquewhite;
+}
+
+.loading {
+  animation: pulse 1s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
 }
