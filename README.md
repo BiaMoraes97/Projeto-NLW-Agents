@@ -1,15 +1,15 @@
 # 🕹️ Assistente de IA para Gamers - NLW eSports (Missão Iniciante)
 
-Esse projeto é o clássico NLW eSports da Rocketseat, mas com um toque especial: construímos um **Assistente de IA usando a API do Gemini** para ser o cérebro do nosso projeto. Ele se conecta diretamente à API Gemini da Google para fornecer respostas inteligentes ao usuário.  
-Um app **100% frontend**, desenvolvido com HTML, CSS e JavaScript, com design moderno, animações e o mais importante: que te ajuda em tempo real nos jogos, dando dicas de estratégia, callouts, informações e sugestões para melhorar a gameplay.
-Atualmente desenvolvido para atender informações sobre esses jogos: **Hollow Knight, Dak Souls 3 e Resident Evil 2.**
+Esse projeto é o clássico NLW eSports da Rocketseat, mas com um toque especial: construímos um **Assistente de IA usando a API Gemini** para ser o cérebro do nosso projeto. Ele se conecta diretamente à API Gemini (IA da Google) para fornecer respostas inteligentes ao usuário.  
+Uma aplicação web **100% frontend**, desenvolvida com HTML, CSS e JavaScript, com design moderno, animações e o mais importante: que te ajuda em tempo real nos jogos, dando dicas de estratégia, callouts, informações e sugestões para melhorar a gameplay.      
+Atualmente desenvolvido para atender informações sobre esses jogos: **Hollow Knight, Dark Souls 3 e Resident Evil 2.**
 
 ---
 
 ## 🚀 O que tem aqui?
 
 ✅ Projeto base do NLW eSports (100% frontend)  
-✅ Frontend bonito e fluido, com animações clássicas que deixam o app vivo
+✅ Frontend bonito e fluido, com animações clássicas que deixam o app vivo  
 ✅ Integração com a API do Gemini (Google) para ser o cérebro do assistente  
 ✅ Assistente que entende o contexto do jogo e manda dicas em tempo real  
 ✅ Código limpo e comentado (quem possui o repositório entende facilmente)
